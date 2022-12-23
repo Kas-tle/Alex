@@ -149,6 +149,7 @@ namespace Alex.Worlds.Multiplayer.Bedrock.Resources
 				{
 					//resourcePackIds.Add(entry.Identifier);
 				}
+				Log.Info($"Loading: {entry.UUID}={packInfo.ContentKey}");
 			}
 
 			foreach (var packInfo in message.behahaviorpackinfos)
