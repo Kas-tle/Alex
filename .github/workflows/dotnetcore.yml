@@ -11,29 +11,29 @@ jobs:
     strategy:
       matrix:
         include:
-        - name: Linux x64
-          os: ubuntu-latest
-          rid: linux-x64
-          artifact: 'Linux (x64)'
-          platform: 'Linux-x64'
+#         - name: Linux x64
+#           os: ubuntu-latest
+#           rid: linux-x64
+#           artifact: 'Linux (x64)'
+#           platform: 'Linux-x64'
           
-        - name: Linux Arm64
-          os: ubuntu-latest
-          rid: linux-arm64
-          artifact: 'Linux (ARM64)'
-          platform: 'Linux-arm64'
+#         - name: Linux Arm64
+#           os: ubuntu-latest
+#           rid: linux-arm64
+#           artifact: 'Linux (ARM64)'
+#           platform: 'Linux-arm64'
           
-        - name: MacOS x64
-          os: macos-latest
-          rid: osx-x64
-          artifact: 'MacOS (x64)'
-          platform: 'MacOS-x64'
+#         - name: MacOS x64
+#           os: macos-latest
+#           rid: osx-x64
+#           artifact: 'MacOS (x64)'
+#           platform: 'MacOS-x64'
           
-        - name: MacOS Arm64
-          os: macos-latest
-          rid: osx.12-arm64
-          artifact: 'MacOS Monterey (ARM64)'
-          platform: 'MacOS-arm64'
+#         - name: MacOS Arm64
+#           os: macos-latest
+#           rid: osx.12-arm64
+#           artifact: 'MacOS Monterey (ARM64)'
+#           platform: 'MacOS-arm64'
           
         - name: Windows x64
           os: windows-latest
@@ -41,11 +41,11 @@ jobs:
           artifact: 'Windows (x64)'
           platform: 'Windows-x64'
         
-        - name: Windows Arm64
-          os: windows-latest
-          rid: win-arm64
-          artifact: 'Windows (ARM64)'
-          platform: 'Windows-arm64'
+#         - name: Windows Arm64
+#           os: windows-latest
+#           rid: win-arm64
+#           artifact: 'Windows (ARM64)'
+#           platform: 'Windows-arm64'
 
     steps:
     - uses: actions/checkout@v2
